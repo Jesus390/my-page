@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
+<?php
+require_once('header.php');
+?>
     <section class="container me">
         <h1><span>Hi, my name's</span> Mario Espinola</h1>
         <p>
@@ -40,5 +33,10 @@
             <li><a href="https://www.linkedin.com/in/marioespinola/" target="_blank" title="Go my Linkedin">linkedin</a></li>
         </ul>
     </section>
-</body>
-</html>
+
+
+
+<?php
+    require_once('footer.php');
+?>
+
