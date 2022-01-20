@@ -1,19 +1,13 @@
 <?php
-require_once('header.php');
+    require_once('header.php');
 ?>
-    <section class="container me">
-        <h1><span>Hi, my name's</span> Mario Espinola</h1>
-        <p>
-            I'm only a programmer pasionate for the informatic technology, specially Machine Learning, Neural Network, Data Mining and Artificial Intelligence.
-        </p>
-    </section>
-    <hr>
-    <section class="menu">
-        <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="/blog">Blog</a></li>
-        </ul>
-    </section>
+    
+
+<?php
+    require_once('menu.php');
+?>
+
+
     <section class="info-blog">
         <p class="date"> <span>Publicado: </span> 19/01/2021</p>
         <h3><a href="/blog/knowing-about-data-mining">Knowing about Data Mining</a></h3>
