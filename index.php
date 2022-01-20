@@ -3,12 +3,12 @@
 ?>
     
 
-<?php
+    <?php
     require_once('menu.php');
 ?>
 
 
-    <section class="info-blog">
+<section class="info-blog">
         <p class="date"> <span>Publicado: </span> 19/01/2021</p>
         <h3><a href="/blog/knowing-about-data-mining">Knowing about Data Mining</a></h3>
         <p class="text">
