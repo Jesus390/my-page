@@ -1,9 +1,12 @@
 <IfModule mod_rewrite.c>
-
+    
    RewriteEngine On
+   
+   RewriteRule ^(css)($|/) - [L]
 
    RewriteCond %{REQUEST_FILENAME}  -f [OR]
    RewriteCond %{REQUEST_FILENAME} !-f
    RewriteRule ^(.*)$ index.php?path=$1 [L,QSA]
+
 
 </IfModule>
